@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
-	"hexlet-go/greeting"
+
+	"github.com/fatih/color"
+	"github.com/spracs/hexlet-go/greeting"
 )
 
 func main() {
-	fmt.Println(greeting.Hello())
+	fmt.Println(color.GreenString(greeting.Hello()))
 }
